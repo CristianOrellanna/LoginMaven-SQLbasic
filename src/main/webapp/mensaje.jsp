@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Resultado vaidacion</title>
+<title>Vaidación</title>
 </head>
 <body>
 	<h2> <%=request.getAttribute("mensaje") %> </h2>

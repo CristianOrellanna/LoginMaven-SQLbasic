@@ -43,9 +43,9 @@ public class ValidadorServlet extends HttpServlet {
 		
 		try {
 			if(LoginDao.validar(usuario,password)>0) {
-				msj = "Usuario y clave correctas";
+				msj = "Bienvenido! su usuario y contraseña son correctas";
 			}else {
-				msj = "Revise su usuario y clave";
+				msj = "Algo salio mal, por favor revise su usuario y contraseña";
 			}
 		}catch(Exception e) {
 			e.printStackTrace();

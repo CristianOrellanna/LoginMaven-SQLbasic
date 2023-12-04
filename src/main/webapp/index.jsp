@@ -3,13 +3,25 @@
 <html>
 <head>
 	<meta http-equiv="ContentType" content="text/html: charset=UTF-8">
-	<title>Hola Usuario!</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Login</title>
 </head>
 <body>
-	<form action="ValidadorServlet" method="POST">
-		Nombre de usuario: <input type="text" name="usuario"><br/>
-		Contraseña: <input type="password" name="password"><br/>
-		<input type="submit" value="Enviar">
-	</form>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form action="ValidadorServlet" method="POST">
+        <h3>Login</h3>
+
+        <label for="username"></label>
+        <input type="text" placeholder="Usuario" name="usuario">
+
+        <label for="password"></label>
+        <input type="password" placeholder="Contraseña" name="password">
+
+		<button>Iniciar sesión</button>
+		
+    </form>
 </body>
 </html>
